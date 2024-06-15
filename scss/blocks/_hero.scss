@@ -1,0 +1,140 @@
+.hero {
+    padding: 150px 0; 
+    text-align: center; 
+}
+
+.hero__head {
+    width: 100%;
+    max-width: 921px; 
+    margin: 0 auto; 
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 88px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: aliceblue;
+}
+
+.hero__text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    margin-top: 20px; 
+}
+
+.hero__btn:hover {
+    background-color: #759f87;
+}
+
+.hero__btn {
+    transform: translateY(50px);
+    border-radius: 6px;
+    padding: 6px 32px;
+    background-color: #22c96a;
+    width: 190px;
+    height: 53px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border: none;
+}
+
+.hero__btn--link{
+    color:#fff;
+}
+
+@media only screen and (max-width: 768px){
+    .hero {
+        padding: 100px 0; 
+    }
+   .hero__head {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-weight: 400;
+    font-size: 56px;    
+    width: 709px;
+    height: 124px;
+    gap: 0px;
+    opacity: 0px;
+    line-height: 1.1;
+    text-align: center;
+    color: #fff;
+   }
+
+   .hero__text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 14px; 
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    width: 544px;
+    height: 42px;
+    margin-left: 50px;
+   }
+
+
+
+   .hero__btn {
+    transform: translateY(50px);
+    border-radius: 6px;
+    padding: 6px 32px;
+    background-color: #22c96a;
+    width: 190px;
+    height: 53px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border: none;
+   }
+
+   .hero__btn:hover {
+    background-color: #759f87;
+    }
+
+   .hero__btn--link{
+    color:#fff;
+   }
+}
+
+@media only screen and (max-width: (376px)){
+    .hero {
+        padding: 100px 0;
+        text-align: center; 
+        color: #fff; 
+    }
+    
+    .hero__head {
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 400;
+        font-size: 26px; 
+        line-height: 1.2; 
+        margin: 0 auto; 
+        max-width: 90%; 
+    }
+    
+    .hero__text {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 14px; 
+        line-height: 1.5;
+        text-align: center; 
+        margin: 20px auto;
+        max-width: 90%; 
+    }
+    
+    .hero__btn {
+        transform: translateY(30px); 
+        border-radius: 6px;
+        padding: 12px 32px; 
+        background-color: #22c96a;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    .hero__btn:hover {
+        background-color: #759f87;
+    }
+}

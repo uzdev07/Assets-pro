@@ -1,0 +1,113 @@
+.box__head {
+    font-family: Cormorant Garamond;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 69.6px;
+    text-align: center;
+    color:  #141414;
+}
+
+.box {
+    height: 1206px;
+    background-color: #F9FAFB;
+}
+
+.box__list {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.box__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box__box {
+    display: flex;
+}
+
+.box__saon {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+    color:#707D89;
+}
+
+.box__text {
+    font-family: Cormorant Garamond;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41.6px;
+    text-align: right;
+    color:#141414;
+    margin-right: 70px;
+}
+
+.box__text2 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    color:#141414;
+    width: 636px;
+}
+
+.box__hr {
+    width: 1296px;
+    border: 1px solid #D2DAE1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width:769px) {
+    .box__head {
+        font-family: Cormorant Garamond;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: center;
+    }
+
+    .box__item {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    .box__box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box__hr {
+        width: 690px;
+        border: 1px solid #D2DAE1;
+        margin-left: 50px;
+    }
+
+    .box__text{
+        margin-left: -20px;
+        text-align: left;
+        font-family: Cormorant Garamond;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 31.2px;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-left: -5px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .box__text2 {
+        width: 300px;
+    }
+
+    .box__hr {
+        width: 300px;
+    }
+}

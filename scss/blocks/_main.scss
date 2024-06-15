@@ -1,0 +1,165 @@
+.main__section {
+  max-width: 100%;
+  background: #fff;
+}
+
+.main__head {
+  height: 70px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Cormorant Garamond;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 69.6px;
+  text-align: left;
+  color: #141414;
+  text-align: center;
+}
+
+.main__item {
+  width: 276px;
+  height: 176px;
+  gap: 24px;
+  opacity: 0px;
+  margin-top: 38px;
+}
+
+.main__list {
+  justify-content: center;
+  margin-top: 164px;
+  display: flex;
+  gap: 34px;
+  flex-wrap: wrap;
+}
+
+.main__bg {
+  width: 276px;
+  height: 50px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  background: #22C96A;
+}
+
+.main__item--txt {
+  height: 42px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Cormorant Garamond;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: left;
+  color: #141414;
+}
+
+.main__bg1 {
+  width: 276px;
+  height: 70px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  background: #22C96A;
+}
+
+.main__item1 {
+  width: 276px;
+  height: 196px;
+  margin-top: 20px;
+}
+
+.main__item2 {
+  width: 276px;
+  height: 206px;
+  margin-top: 10px;
+}
+
+.main__item3 {
+  width: 276px;
+  height: 372px;
+  margin-top: -150px;
+}
+
+.main__bg2 {
+  width: 276px;
+  height: 80px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  background: #22C96A;
+}
+
+.main__bg3 {
+  width: 276px;
+  height: 240px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  background: #22C96A;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .main__list {
+    display: flex;  
+    align-items: center;
+  }
+
+  .main__item,
+  .main__item1,
+  .main__item2,
+  .main__item3 {
+      width: 100%;
+      max-width: 156px;
+  }
+
+  .main__bg,
+  .main__bg1,
+  .main__bg2,
+  .main__bg3 {
+      width: 100%;
+      margin-top: 100px;
+  }
+
+  .main__item3 {
+      margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: (376px)) {
+  .main__list{
+    flex-direction: column-reverse;
+    text-align: center;
+    }
+    
+    .main__head {
+    font-size: 24px;
+    height: 300px;
+    }
+    
+    .main__bg{
+    background-color: #22C96A;
+    
+    }
+    
+    .main__item,
+    .main__item1,
+    .main__item2,
+    .main__item3 {
+    padding: 10px;
+    gap: 250px;
+    }
+    
+    .main__item--txt {
+    font-size: 16px;
+    }
+    
+    .main__box{
+    display: flex;
+    gap: 35px;
+    }
+    
+    .rate {
+    font-size: 12px;
+    }
+}

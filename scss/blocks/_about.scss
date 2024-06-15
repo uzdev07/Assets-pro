@@ -1,0 +1,139 @@
+.about__section {
+    background-color: #f9fafb;
+}
+
+.about {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-weight: 400;
+    font-size: 58px; 
+    line-height: 1.2;
+}
+
+.about__head {
+    text-align: center;
+    color: #141414;
+}
+
+.about__span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #707d89;
+}
+
+.about__heading {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-weight: 400;
+    font-size: 32px; 
+    line-height: 1.3;
+    color: #141414;
+}
+
+.about__text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #141414;
+}
+
+.about__item1 {
+    padding: 32px 40px 40px 40px;
+    width: 856px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.about__item {
+    padding: 40px;
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.about__item:hover{
+    transform: scale(1.1);
+    transition: all 0.9s ease-in-out;
+}
+
+.about__item1:hover{
+    transform: scale(1.1);
+    transition: all 0.9s ease-in-out;
+}
+
+.about__list {
+    padding: 128px 312px;
+    width: 1920px;
+    margin-left: -150px;
+    height: 890px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .about {
+        font-size: 40px;
+    }
+
+    .about__heading {
+        font-size: 28px;
+    }
+
+    .about__text {
+        font-size: 14px;
+    }
+
+    .about__list {
+        padding: 64px 20px;
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .about__item1,
+    .about__item {
+        width: calc(50% - 10px);
+        height: auto;
+        padding: 20px;
+    }
+
+    .about__item:nth-child(5) {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .about {
+        font-size: 32px;
+    }
+
+    .about__heading {
+        font-size: 24px;
+    }
+
+    .about__text {
+        font-size: 12px;
+    }
+
+    .about__item1,
+    .about__item {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .about__list {
+        padding: 32px 10px;
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+        justify-content: center;
+        gap: 20px;
+    }
+}
