@@ -62,9 +62,13 @@
 }
 
 .footer__hr {
-    width: 1296px;
-    border: 0.1px solid #FFFFFF;
-    opacity: 0.8;
+    width: 1250px;
+    height: 0px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0.2px;
+    margin-top: 25px;
+    transform: translateX(300px);    
 }
 
 @media only screen and (max-width:769px) {
@@ -77,6 +81,16 @@
     .footer__text1,.footer__text2,.footer__text3,.footer__text4 {
         margin-left: 20px;
         width: 708px;
+    }
+
+    .footer__hr {
+        width: 708px;
+        height: 0px;
+        gap: 0px;
+        margin-left: -275px;
+        border: 1px 0px 0px 0px;
+        opacity: 0.2px;
+
     }
 }
 
@@ -93,5 +107,14 @@
 
     .footer__logo {
         margin-left: 20px;
+    }
+
+    .footer__hr{
+        width: 328px;
+        height: 0px;
+        gap: 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0.2px;
+
     }
 }

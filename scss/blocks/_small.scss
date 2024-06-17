@@ -1,7 +1,7 @@
 .small__section {
     width: 100%;
     padding: 50px 0;
-    background-color: #f8f8f8;
+    background-color: #ffffff;
     text-align: center;
 }
 
@@ -53,7 +53,12 @@
     }
 }
 
-@media only screen and (max-width: 361px) {
+@media only screen and (max-width: 368px) {
+    .small__section{
+        margin-top: 750px;
+    }
+
+
     .small__head {
         font-size: 32px;
         line-height: 38px;

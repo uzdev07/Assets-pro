@@ -36,6 +36,7 @@
 .alside__item__head {
     font-family: 'Cormorant Garamond', serif;
     font-size: 32px;
+    transform: translateY(35px);
     font-weight: 400;
     line-height: 41.6px;
     text-align: left;
@@ -47,6 +48,7 @@
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
+    transform: translateY(50px);
     text-align: left;
     color: #141414;
     width: 328px;
@@ -73,10 +75,11 @@
     height: 30px;
     padding: 10px;
     gap: 10px;
+    margin-left: -125px;
     border-radius: 50px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
-    background-color: #D2DAE1;
+    background-color: #ffffff;
     margin-top: -25px;
 }
 
